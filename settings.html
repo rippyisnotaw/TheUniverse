@@ -10,44 +10,84 @@
 </head>
 <body>
     <nav>
-      <h2 class="title">The Universe</h2>
-      <div class="fixed-nav-bar">
-        <a class="logo" href="/./"><img id="INImg" src="images/faviconreal.jpg"></a>
-          <div class="fixed-nav-bar-right">
-              <a class="navbar-link" href="/./index.html"><i class="fa-solid fa-gamepad navbar-icon"></i>Games</a>      
-              <a class="navbar-link" href="/./news.html"><span class="material-symbols-outlined weird-icon"></span>Apps</a>
-              <a class="navbar-link" href="/./settings.html"><i class="fa-solid fa-gear navbar-icon settings-icon"></i>Settings</a>
-             <a class="navbar-link" href="/./prox.html"><span class="material-symbols-outlined weird-icon"></span>Proxy</a>
-           </div></div></div></div>
-    </nav>
-  <button>About:Blank</button>
-  <script>
-    var urlObj = new window.URL(window.location.href);
-    var url = "https://blazergames-2.theshadowlighti.repl.co/index.html";
-    if (url) {
-      var win;
+            <style type="text/css">
+              *{
+                text-decoration: none;
+              }
+              .navbar{
+                background: #212121; font-family: calibri; padding-right: 15px;padding-left: 15px;
+              }
+              .navdiv{
+                display: flex; align-items: center; justify-content: space-between;
+              }
+              .logo a{
+                font-size: 35px; font-weight: 600; color: white;
+              }
+              li{
+                list-style: none; display: inline-block;
+              }
+              li a{
+                color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+              }
+              button a{
+                color: white; font-weight: bold; font-size: 15px;
+              }
+            </style>
+            </head>
+            <body>
+            <nav class="navbar">
+              <div class="navdiv">
+                <div class="logo"><a href="index.html">TheUniverse</a> </div>
+                <ul>
+                  <li><a href="home.html">Games</a></li>
+                  <li><a href="news.html">Apps</a></li>
+                  <li><a href="prox.html">Proxy</a></li>
+                  <li><a href="settings.html">Settings</a></li>
+                </ul>
+              </div>
+            </nav>
+            </body>
+            </html>
+      <button>About:Blank</button>
+      <script>
+        var urlObj = new window.URL(window.location.href);
+        var url = "https://algebrahelp-j6a1.onrender.com/";
+        if (url) {
+          var win;
 
-      document.querySelector('button').onclick = function() {
-        if (win) {
-          win.focus();
-        } else {
-          win = window.open();
-          win.document.body.style.margin = '0';
-          win.document.body.style.height = '100vh';
-          var iframe = win.document.createElement('iframe');
-          iframe.style.border = 'none';
-          iframe.style.width = '100%';
-          iframe.style.height = '100%';
-          iframe.style.margin = '0';
-          iframe.src = url;
-          win.document.body.appendChild(iframe);
+          document.querySelector('button').onclick = function() {
+            if (win) {
+              win.focus();
+            } else {
+              win = window.open();
+              win.document.body.style.margin = '0';
+              win.document.body.style.height = '100vh';
+              var iframe = win.document.createElement('iframe');
+              iframe.style.border = 'none';
+              iframe.style.width = '100%';
+              iframe.style.height = '100%';
+              iframe.style.margin = '0';
+              iframe.src = url;
+              win.document.body.appendChild(iframe);
+            }
+            document.querySelector('button').style.bacground = 'grey';
+            document.querySelector('button').innerHTML = "About:Blank";
+          };
         }
-        document.querySelector('button').style.bacground = 'grey';
-        document.querySelector('button').innerHTML = "About:Blank";
-      };
-    }
 
-  </script>
+        
+      </script>
+
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-WKJQ5QHQTJ"></script>
+      <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+
+         gtag('config', 'G-WKJQ5QHQTJ');
+      </script>
+    </nav>
 
 </body>
 </html>

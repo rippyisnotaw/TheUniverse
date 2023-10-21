@@ -1,0 +1,17 @@
+body {
+  background-color: darkgrey;
+}
+
+h2 {
+  color: #000000;
+}
+button {
+  background-color: cyan;
+  border-radius: 5px;
+  font-family: sans-serif;
+  
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+}

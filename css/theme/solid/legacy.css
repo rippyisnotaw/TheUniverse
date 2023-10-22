@@ -1,41 +1,20 @@
 body {
-    background-color: #111
-}
-.title {
-    color:white;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-#searchBar {
-    background-color: rgba(59, 56, 56, 0.356);
-    font-family: 'Source Sans Pro', sans-serif;
-    border-radius: 12px;
-}
-#searchBar::placeholder {
-    color: white;
-}
+background-color: #212121;
 
-@media (orientation: portrait) {
-    #INImg {
-        content: url("/legacyV4.png");
-        width: 22vw;
-    }
+  background-position: center;
+  background-size: cover;
+  font-family: sans-serif;
 }
-#INImg {
-    content: url("/legacyV4.png");
-    width: 22vh;
+h2 {
+  color: #000000;
 }
-.fixed-nav-bar {
-    background-color: rgba(0,0,0,0);
-}
-.fixed-nav-bar-right .navbar-link {
-    text-transform: none;
-    font-weight: normal;
-    margin-right: 0;
-    letter-spacing:normal;
-}
-.column {
-    background-color: rgba(34, 34, 34, 0.5);
-}
-.settings-card {
-    background-color: rgba(34, 34, 34, 0.5);
+button {
+  background-color: #3d3d3d;
+  border-radius: 5px;
+  font-family: sans-serif;
+
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
 }

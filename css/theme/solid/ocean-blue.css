@@ -1,33 +1,20 @@
-.title {
-    color: white;
-}
-
 body {
-    background-color: #1A5276;
-    color: white;
-}
+background-color: #2031b1;
 
+  background-position: center;
+  background-size: cover;
+  font-family: sans-serif;
+}
 h2 {
-    color: black;
+  color: #000000;
 }
+button {
+  background-color: #4dc3ff;
+  border-radius: 5px;
+  font-family: sans-serif;
 
-.fixed-nav-bar-right .navbar-link {
-    color: white;
-}
-
-#INImg {
-    content: url("/main.png");
-}
-
-input, select, .column, .key-form, button, .key-button, .searchbar {
-    background-color: #3498DB;
-    color: white;
-}
-
-.settings-card {
-    background-color: #111;    
-}
-
-input:checked + .slider-round {
-    background-color: #000;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
 }

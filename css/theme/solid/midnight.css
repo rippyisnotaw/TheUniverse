@@ -1,24 +1,20 @@
-.title {
-    color:white;
-}
 body {
-    background-color: black;
+background-color: #1c1717;
+
+  background-position: center;
+  background-size: cover;
+  font-family: sans-serif;
 }
 h2 {
-    color:white;
+  color: #4f4f4f;
 }
-.fixed-nav-bar-right .navbar-link {
-    color:white
-}
-#INImg {
-    content: url("/main.png");
-}
-input, select, .column, .key-form, button, .key-button, .searchbar {
-background-color: #222;
-}
-.settings-card {
-background-color: #111;    
-}
-input:checked + .slider-round {
-    background-color: #000;
+button {
+  background-color: #3d3d3d;
+  border-radius: 5px;
+  font-family: sans-serif;
+
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
 }

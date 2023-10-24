@@ -1,6 +1,6 @@
 .title {
   position: relative;
-  top: -10vh;
+  top: 0;
   font-size: 9vh;
   color: white;
   font-family: "Inter", sans-serif;
@@ -11,7 +11,7 @@
 @media (orientation: portrait) {
   .title {
     position: relative;
-    top: -10vw;
+    top: 0vw;
     font-size: 10vw;
     color: white;
     font-family: "Inter", sans-serif;
@@ -43,9 +43,9 @@
   align-items: center;
 }
 .searchbar {
-    top:-15vh;
+    top: -5vh;
     padding: 1vw;
-    width: 45vh;
+    width: 30vh;
   position: relative;
     border-radius: 5px;
     background: #353535;
@@ -58,7 +58,7 @@
 }
 @media (orientation: portrait) {
   .searchbar {
-    top:-15vw;
+    top: -5vw;
     padding: 1vw;
     width: 45vw;
     position: relative;
